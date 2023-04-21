@@ -3,6 +3,9 @@
 
 # PROBLEM 3 - THE VIGENÉRE CIPHER
 
+#ask user to input their name
+name = input(Please enter your name: )
+
 #define to generate the key
 def generateKeyword(textMessage, key):
     key = list(key)
@@ -32,3 +35,8 @@ if __name__ == "__main__":
 # added some colors
     cyan = '\033[36m' 
     reset = '\033[0m'
+#print output
+    key = generateKeyword(textMessage, keyword) 
+    cipher_text = cipherText(textMessage, key)
+    print("=" * 80) 
+    print(cyan + "CIPHERTEXT: " + reset + cipher_text)
