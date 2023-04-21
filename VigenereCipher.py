@@ -30,3 +30,5 @@ if __name__ == "__main__":
     print("Kindly type your chosen keyword also in capital letters: ")
     keyword = input() 
 # added some colors
+    cyan = '\033[36m' 
+    reset = '\033[0m'
