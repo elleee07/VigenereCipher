@@ -21,6 +21,6 @@ def cipherText(textMessage, key):
         cipher_text.append(chr(x)) 
     return("" .join(cipher_text))
 
-
+if __name__ == "__main__":
 # ask the user to type any message, keyword in all capital letters with no spaces
 # added some colors
