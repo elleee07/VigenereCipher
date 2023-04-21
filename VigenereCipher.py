@@ -23,4 +23,10 @@ def cipherText(textMessage, key):
 
 if __name__ == "__main__":
 # ask the user to type any message, keyword in all capital letters with no spaces
+    print("=" * 80) 
+    print("Kindly type any message in capital letters and no spaces: ")
+    textMessage = input() 
+    print("=" * 80) 
+    print("Kindly type your chosen keyword also in capital letters: ")
+    keyword = input() 
 # added some colors
